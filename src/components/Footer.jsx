@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+let date = new Date();
+let year = date.getFullYear();
 
 function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+      <aside>
+        <p>Copyright © {year} - All right reserved by Davronbek Anvarov</p>
+      </aside>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
