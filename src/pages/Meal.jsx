@@ -12,7 +12,7 @@ function Meal() {
     });
   }
   return (
-    <div className="align-content mt-10 p-8">
+    <div className="align-content mt-10 p-2">
       {newMeal &&
         newMeal.map((info) => {
           return (
