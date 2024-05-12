@@ -18,7 +18,7 @@ function Meal() {
           return (
             <div
               key={info.id}
-              className=" p-10 cart bg-gray-300 text-slate-600 "
+              className=" p-10  bg-gray-300 text-slate-600 "
             >
               <img
                 className=" ml-auto mr-auto"
@@ -33,7 +33,7 @@ function Meal() {
               <p className=" font-bold text-2xl">
                 Ingredients:{" "}
                 <span className=" font-medium text-green-600">
-                  {info.ingredients}
+                {" "}   {info.ingredients}
                 </span>{" "}
               </p>
               <p className=" font-bold text-2xl">
