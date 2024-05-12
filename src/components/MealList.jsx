@@ -6,20 +6,22 @@ function MealList() {
 
   return (
     <>
-      <div className="flex gap-3 pb-10 justify-center flex-col">
+      <div className="flex gap-3 pb-10 justify-center flex-col p-9">
         {data.map((info) => {
           return (
             <div
               key={info.id}
-              className="card flex-row items-center gap-5 w-106 font-bold  glass bg-emerald-500 p-3 text-indigo-800 "
+              className="card flex-row items-center  gap-5 w-106 font-bold  glass bg-emerald-500 p-3 text-indigo-800 "
             >
-              <h1 className=" text-3xl font-bold text-center ">
-                <span className=" text-red-500">{info.title}</span>
+              <h1 className=" text-3xl font-bold text-center w-40   text-red-500 ">
+                {info.title}
               </h1>
               <p>
-                <span className=" text-yellow-300">{info.mathod}</span>{" "}
+                <span className=" text-yellow-300 line-clamp-3 w-full">
+                  {info.mathod}
+                </span>{" "}
               </p>
-              <p>
+              <p className=" w-20">
                 🕔
                 <span className=" text-yellow-300">
                   {info.cookingTime}

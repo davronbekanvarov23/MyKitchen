@@ -9,8 +9,7 @@
 }
 img {
   object-fit: cover;
-  /* height: 200px;
-  width: 200px; */
+  height: 200px;
 }
 @layer components {
   html,
@@ -22,6 +21,6 @@ img {
     @apply flex flex-col;
   }
   .align-content {
-    @apply max-w-6xl w-full mx-auto;
+    @apply max-w-6xl w-full mx-auto; 
   }
 }

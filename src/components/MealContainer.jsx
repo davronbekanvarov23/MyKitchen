@@ -28,7 +28,7 @@ function MealContainer() {
         </h3>
       )}
 
-      <div className="mb-5 border-b py-3 flex justify-between items-center">
+      <div className="mb-5 border-b py-3 flex justify-between items-center p-9">
         <h3 className="font-medium text-2xl">Meals {data && data.length} </h3>
         <div className="flex gap-3">
           <button
