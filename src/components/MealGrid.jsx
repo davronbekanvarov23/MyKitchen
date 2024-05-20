@@ -12,22 +12,22 @@ function MealGrid() {
               className="card flex gap-5  w-80 font-bold  glass bg-emerald-500 p-3 text-indigo-800 "
             >
               <h1 className=" text-3xl font-bold text-center ">
-                <span className=" text-red-500">{info.title}</span>
+                <span className=" text-gray-700">{info.title}</span>
               </h1>
               <p>
-                <span className=" text-yellow-300 line-clamp-3">
+                <span className=" text-gray-300  line-clamp-3">
                   {info.mathod}
                 </span>{" "}
               </p>
               <p>
                 🕔
-                <span className=" text-yellow-300">
+                <span className=" text-gray-300 ">
                   {info.cookingTime}
                 </span>{" "}
               </p>
               <img src={info.image} alt="" width="full" height="200" />
 
-              <Link className="btn btn-accent w-20 " to={`/Meal/${info.title}`}>
+              <Link className="btn btn-secondary w-20 " to={`/Meal/${info.title}`}>
                 o'qish
               </Link>
             </div>

@@ -32,20 +32,20 @@ function Meal() {
               </h1>
               <p className=" font-bold text-2xl">
                 Ingredients:{" "}
-                <span className=" font-medium text-green-600">
+                <span className=" font-medium text-gray-500">
                 {" "}   {info.ingredients}
                 </span>{" "}
               </p>
               <p className=" font-bold text-2xl">
                 Cooking Time:{" "}
-                <span className=" font-medium text-green-600">
+                <span className=" font-medium text-gray-500">
                   {" "}
                   🕔 {info.cookingTime}
                 </span>{" "}
               </p>
               <p className=" font-bold text-2xl">
                 Mathod:{" "}
-                <span className=" font-medium text-green-600">
+                <span className=" font-medium text-gray-500">
                   {info.mathod}
                 </span>{" "}
               </p>
