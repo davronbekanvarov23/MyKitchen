@@ -20,7 +20,6 @@ function Home() {
   console.log(data);
   return (
     <div className="align-content mt-10">
-      
       <MealContainer />
     </div>
   );
